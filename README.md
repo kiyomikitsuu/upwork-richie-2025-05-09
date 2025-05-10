@@ -44,12 +44,15 @@ We've developed three core TypeScript files that work together to provide a spec
 
 ## Next Steps
 1. **Code Sharing**: We'll upload the code to GitHub by May 12th, 2025
-2. **Developer Consultation**: Schedule a meeting with your development team (proposed: May 14-15, 2025)
+2. **Developer Consultation**: Schedule a meeting with your development team (proposed: May 15th - 18th)
 3. **Collaborative Debugging**: Work together to resolve TypeScript errors and environment issues
 4. **Implementation Review**: Discuss any architectural changes needed for your specific environment
 5. **Testing Strategy**: Develop comprehensive testing approach for production implementation
 
 ## Contact and Collaboration
-We'd like to set up a consultation meeting next week to discuss our implementation. Would May 14th at 2:00 PM PDT work for your developer team? We believe a collaborative approach will be the most efficient way to complete this implementation.
+We'd like to set up a consultation meeting next week to discuss our implementation. Please review the Calendly below:
+
+30 min: https://calendly.com/kiyomi-yee/30min
+1 hour: https://calendly.com/kiyomi-yee/1hr
 
 *Note: We understand your preference for asynchronous work. We're happy to continue through messaging, but we believe an initial synchronous consultation would significantly accelerate understanding of our architecture.*
