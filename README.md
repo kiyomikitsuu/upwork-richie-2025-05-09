@@ -43,7 +43,7 @@ We've developed three core TypeScript files that work together to provide a spec
 - Testing framework requires Node.js type definitions
 
 ## Next Steps
-1. **Code Sharing**: We'll upload the code to GitHub by May 12th, 2025
+1. **Code Sharing**: We'll upload v15.0.0  to GitHub by May 12th, 2025 @ 6 PM PDT.
 2. **Developer Consultation**: Schedule a meeting with your development team (proposed: May 15th - 18th)
 3. **Collaborative Debugging**: Work together to resolve TypeScript errors and environment issues
 4. **Implementation Review**: Discuss any architectural changes needed for your specific environment
