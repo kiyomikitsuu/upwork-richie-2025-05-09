@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.46",
+    "node-fetch": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "ts-node tests/index.ts",
+    "dev": "ts-node src/index.ts"
+  },
+  "type": "module"
+}

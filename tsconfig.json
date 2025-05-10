@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // Target modern JavaScript features
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    
+    // Include all modern JS features
+    "lib": ["ES2022", "DOM"],
+    
+    // Enable strict type checking
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    
+    // Modern features
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    // Output settings
+    "outDir": "./dist",
+    "sourceMap": true,
+    
+    // Improve development experience
+    "declaration": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
