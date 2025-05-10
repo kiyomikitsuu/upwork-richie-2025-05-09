@@ -1,4 +1,4 @@
-# FrostTec GPT-4o Processor: Project Summary 2025-05-09
+# FrostTec Multi-Level Processor (GPT-4o): Project Summary 2025-05-09
 
 ## Problem Statement
 Richie needed a specialized Multi-Level Processor (MLP) implementation to work efficiently with the GPT-4o API. This processor needed to handle contextual analysis, optimal parameter selection, and flexible processing capabilities while maintaining compatibility with the core MLP architecture.
