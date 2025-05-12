@@ -82,8 +82,8 @@ Comprehensive testing framework:
 1. **Project Overview**: High-level business to technical mapping
 2. **v14.1.0 Technical Specification**: Complete current implementation details
 3. **PUF 2.0 Framework**: Theoretical foundation for current architecture
-4. **v15.0.0 Transition Guide**: Migration from v14.1.0 to v15.0.0 (Coming Soon)
-5. **PUF 3.0 Specification**: Enhanced framework documentation (Coming Soon)
+4. **v15.0.0 Transition Guide**: Migration from v14.1.0 to v15.0.0
+5. **PUF 3.0 Specification**: Enhanced framework documentation
 
 ## ⚙️ Technical Specifications
 
