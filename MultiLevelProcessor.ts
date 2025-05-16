@@ -1,5 +1,5 @@
 /**
- * # Multi-Level Processor v15.7.0
+ * # Multi-Level Processor v15.7.1
  * 
  * A sequential processing system that passes context through multiple levels
  * of AI processing to generate increasingly refined outputs.
@@ -182,17 +182,6 @@
  * 7. **Immutable State**: No side effects, predictable behavior
  * 8. **Transparent Debugging**: Clear error messages and context preservation
  * 
- * ## Why Multi-Level Processing Works Better
- * 
- * Instead of one large prompt trying to do everything:
- * - **Analysis** understands the user's psychology and needs
- * - **Generation** creates initial content based on analysis
- * - **Refinement** improves emotional resonance and book-specificity
- * - **Enhancement** adds final polish for maximum impact
- * 
- * This creates more personalized, emotionally relevant content than single-shot generation.
- * Each level focuses on its specific task without being overwhelmed by others.
- * 
  * ## Dependencies
  * 
  * This MLP system requires Next.js for:
@@ -223,7 +212,7 @@
 // VERSION & CONFIGURATION
 // =============================================================================
 
-const MLP_VERSION = '15.7.0';
+const MLP_VERSION = '15.7.1';
 
 // =============================================================================
 // TYPES & INTERFACES
