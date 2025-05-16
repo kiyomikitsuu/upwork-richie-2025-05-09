@@ -232,10 +232,6 @@ Instead of one large prompt trying to do everything:
 
 This creates more personalized, emotionally relevant content than single-shot generation. Each level focuses on its specific task without being overwhelmed by others.
 
-## License
-
-MIT License - See LICENSE file for details
-
 ## 📞 Support
 
 kiyomi.yee@frosttec.net
