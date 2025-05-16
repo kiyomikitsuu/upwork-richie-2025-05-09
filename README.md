@@ -5,10 +5,10 @@
 The Multi-Level Processor (MLP) transforms complex AI prompt engineering into manageable, composable levels. Built using Pattern Understanding Framework (PUF) 3.0 principles, the MLP replaces monolithic AI prompts with focused processing stages that create more personalized and emotionally relevant outputs.
 
 **Key Benefits:**
-• **Production Ready**: v15.7.0 with comprehensive error handling and JSON validation
-• **Drop-in Replacement**: Easy integration with existing Next.js/GPT-4o systems
-• **Transparent Debugging**: Clear error messages with full context preservation
-• **Type Safe**: Full TypeScript support with strict typing throughout
+- ✅ **Production Ready**: v15.7.0 with comprehensive error handling and JSON validation
+- ✅ **Drop-in Replacement**: Easy integration with existing Next.js/GPT-4o systems
+- ✅ **Transparent Debugging**: Clear error messages with full context preservation
+- ✅ **Type Safe**: Full TypeScript support with strict typing throughout
 
 ## Quick Start
 
@@ -49,10 +49,10 @@ if (result.success) {
 
 The MLP implements core-extension architecture with:
 
-• **State-Based Context Processing**: Immutable context flow through processing levels
-• **Binary Complete Conditions**: Clear execution triggers based on all conditions being met
-• **Dimensional Complexity Scaling**: Adaptive parameters based on processing complexity
-• **Core-Extension Pattern**: Minimal core with optional enhancements
+- **State-Based Context Processing**: Immutable context flow through processing levels
+- **Binary Complete Conditions**: Clear execution triggers based on all conditions being met
+- **Dimensional Complexity Scaling**: Adaptive parameters based on processing complexity
+- **Core-Extension Pattern**: Minimal core with optional enhancements
 
 ### Default Processing Levels
 
@@ -84,10 +84,10 @@ Input → Analysis → Generation → Refinement → Enhancement → Output
 ```
 
 Each level:
-• Receives full context (user input, variables, previous outputs)
-• Produces focused results for the next level
-• Stores output as artifacts using `${level_id}_response` pattern
-• Can be customized or replaced independently
+- Receives full context (user input, variables, previous outputs)
+- Produces focused results for the next level
+- Stores output as artifacts using `${level_id}_response` pattern
+- Can be customized or replaced independently
 
 ## Implementation Guide
 
@@ -150,34 +150,34 @@ if (!result.success) {
 
 The MLP includes automatic JSON cleanup and validation for the generation level:
 
-• Removes markdown backticks and extra formatting
-• Extracts JSON arrays from responses
-• Validates structure and challenge count
-• Provides detailed error messages for debugging
+- Removes markdown backticks and extra formatting
+- Extracts JSON arrays from responses
+- Validates structure and challenge count
+- Provides detailed error messages for debugging
 
 ### Template Interpolation
 
 Dynamic variable substitution using `${variable}` syntax:
 
-• Variables from input: `${bookTitle}`, `${userGoal}`, `${userBlock}`
-• Artifacts from previous levels: `${analysis_response}`, `${generation_response}`
-• Automatic fallback to preserve unmatched placeholders
+- Variables from input: `${bookTitle}`, `${userGoal}`, `${userBlock}`
+- Artifacts from previous levels: `${analysis_response}`, `${generation_response}`
+- Automatic fallback to preserve unmatched placeholders
 
 ### Immutable Context Flow
 
-• All transformations create new context instances
-• Complete processing history preserved
-• No shared mutable state bugs
-• Easy debugging through context inspection
+- All transformations create new context instances
+- Complete processing history preserved
+- No shared mutable state bugs
+- Easy debugging through context inspection
 
-## Performance Considerations
+## 📈 Performance Considerations
 
-• **Connection Pooling**: Reuse HTTP connections for multiple requests
-• **Response Caching**: Cache analysis outputs for similar inputs
-• **Token Management**: Monitor and optimize token usage per level
-• **Selective Processing**: Skip refinement/enhancement for simple requests
+- **Connection Pooling**: Reuse HTTP connections for multiple requests
+- **Response Caching**: Cache analysis outputs for similar inputs
+- **Token Management**: Monitor and optimize token usage per level
+- **Selective Processing**: Skip refinement/enhancement for simple requests
 
-## Dependencies
+## 🚀 Dependencies
 
 ### Required Setup
 
@@ -197,7 +197,7 @@ Dynamic variable substitution using `${variable}` syntax:
    export const customModel = (model: string) => openai(model);
    ```
 
-## Troubleshooting
+## 🛠️ Troubleshooting
 
 ### Common Issues
 
@@ -222,13 +222,13 @@ console.log('Available artifacts:', Object.keys(result.context.artifacts));
 console.log('API Key exists:', !!process.env.OPENAI_API_KEY);
 ```
 
-## Why Multi-Level Processing Works Better
+## 🎯 Why Multi-Level Processing Works Better
 
 Instead of one large prompt trying to do everything:
-• **Analysis** understands the user's psychology and needs
-• **Generation** creates initial content based on analysis
-• **Refinement** improves emotional resonance and book-specificity
-• **Enhancement** adds final polish for maximum impact
+- **Analysis** understands the user's psychology and needs
+- **Generation** creates initial content based on analysis
+- **Refinement** improves emotional resonance and book-specificity
+- **Enhancement** adds final polish for maximum impact
 
 This creates more personalized, emotionally relevant content than single-shot generation. Each level focuses on its specific task without being overwhelmed by others.
 
@@ -236,13 +236,10 @@ This creates more personalized, emotionally relevant content than single-shot ge
 
 MIT License - See LICENSE file for details
 
-## Support
+## 📞 Support
 
-• **Issues**: [GitHub Issues](https://github.com/kiyomikitsuu/upwork-richie-2025-05-09/issues)
-• **Discussions**: [GitHub Discussions](https://github.com/kiyomikitsuu/upwork-richie-2025-05-09/discussions)
+kiyomi.yee@frosttec.net
 
 ---
 
-**Built with care by [FrostTec Industries](https://frostec.ai)**
-
-*Creating technology that enhances human creativity and consciousness.*
+**Built with care by FrostTec Industries**
